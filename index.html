@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>Contador</h1>
-    <P>Clique nos botões para alterar o valor.</P>
-    <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
+    <div class="container">
+        <h1>Contador</h1>
+        <P>Clique nos botões para alterar o valor.</P>
+        <div id="counter">
+            <button name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button name="adicionar" onclick="increment()">+</button>
+        </div>
+        <hr>
+        <div id="cenario" onclick="exibir">
+            <div class="bloco"></div>
+            <div class="bloco"></div>
+            <div class="bloco"></div>
+        </div>
     </div>
     <script src="assets/js/scripts.js"></script>
 </body>

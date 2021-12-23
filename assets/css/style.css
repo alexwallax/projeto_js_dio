@@ -12,6 +12,10 @@ body {
     background-color: rgb(177, 225, 255);
 }
 
+p, h1 {
+    text-align: center;
+}
+
 button {
     height: 40px;
     width: 40px;
@@ -27,6 +31,8 @@ button {
 
 #counter {
     display: flex;
+    margin-left: 170px;
+    margin-bottom: 25px;
 }
 
 #currentNumber {
@@ -34,4 +40,14 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+}
+
+.bloco {
+    margin: 25px;
+    background-color: Chocolate;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid white;
 }
